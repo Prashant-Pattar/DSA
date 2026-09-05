@@ -6,12 +6,11 @@ class Solution {
                 digits[i]++;
                 return digits;
             }
-            digits[i]=0;
+            digits[i] = 0;
         }
-        int[] result= new int[n+1];
-        result[0]=1;
-        return result;
-    }
-   
+            int[] newNum=new int[n+1];
+            newNum[0]=1;
 
+            return newNum;
+    }
 }
